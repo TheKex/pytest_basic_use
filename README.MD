@@ -15,5 +15,5 @@ pytest -s -v
 В нем указать токен с [яндекс полигона](https://yandex.ru/dev/disk/poligon/) 
 
 #### Тесты
-1. Тесты по коллекциям [test_collections.py](test_collections.py)
-2. Тесты по API Яндекса [test_ya_disk.py](test_ya_disk.py)
+1. Тесты по коллекциям [test_collections.py](tests/test_collections.py)
+2. Тесты по API Яндекса [test_ya_disk.py](tests/test_ya_disk.py)

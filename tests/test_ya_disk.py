@@ -6,7 +6,6 @@ import ya_disk_api.yandex_disk as yd
 
 @pytest.fixture(scope='class')
 def yd_uploader():
-    print('----- load_dotenv -----')
     load_dotenv()
     token = getenv('YA_DISK_TOKEN')
     yd_up = yd.YaDiskUploader(token=token)

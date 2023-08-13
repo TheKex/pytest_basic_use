@@ -1,11 +1,9 @@
-import min_max
-import names
-import sorting
+from my_collections import min_max, names, sorting
 
 import pytest
 
 
-class TestCollection():
+class TestCollection:
     def test_unique_mentors_codes(self):
         mentors = [
             ["Евгений Шмаргунов", "Олег Булыгин", "Дмитрий Демидов", "Кирилл Табельский", "Александр Ульянцев",
